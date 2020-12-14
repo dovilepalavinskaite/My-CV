@@ -1,10 +1,19 @@
 h1, h2, h3, h4, h5, p {
 	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
 }
 
 .cv-container {
 	padding: 24px;
 }
+
+
+/*BOTH CV SIDES STYLES:*/
+
+.both-cv-sides {
+	display: flex;
+}
+
 
 /*LEFT SIDE HEADER STYLE: */
 
@@ -112,7 +121,7 @@ h5 {
 	margin-bottom: 10px;
 }
 
-.languages-progress, .languages {
+.progress-wrap, .languages {
 	display: flex;
 	justify-content: space-around;
 }
@@ -149,6 +158,69 @@ h5 {
 	background-color: #918e86;
 }
 
+.hobbies-img {
+	height: 50px;
+	margin-top: 20px;
+}
+
+.hobbies-line {
+	text-align: center;
+}
+
+.hobbies-wrap {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
 
 
+.social-media {
+	height: 15px;
+	margin-top: 20px;
+}
+
+
+/*RIGHT SIDE STYLE:*/
+
+.right-side-cv {
+	margin-left: 10px;
+}
+
+.first-layer {
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+.second-layer {
+	position: absolute;
+	top: 40px;
+	width: 1100px;
+	height: 100px;
+	background-color: #fff;
+}
+
+.third-layer {
+	position: absolute;
+	top: 90px;
+}
+
+.fourth-layer {
+	position: absolute;
+	top: 64px;
+	right: 15%;
+}
+
+.main-header {
+	position: absolute;
+	top: 20%;
+	left: 4%;
+	color: #fff;
+	font-size: 50px;
+	letter-spacing: 6px;
+}
+
+h1 {
+	font-weight: 900;
+}
 
