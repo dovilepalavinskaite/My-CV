@@ -224,6 +224,21 @@ h1 {
 	font-weight: 900;
 }
 
+/*Cursor:*/
+
+.moving-text {
+	margin-top: 30px;
+}
+
+.txt-type > .new-txt {
+	border-right: 2px solid #777;
+	animation: blink 1s;
+    animation-iteration-count: 3;
+}
+
+@keyframes blink { 50% { border-color:#fff ; }  }
+
+
 /*EDUCATION AND EXPERIENCE STYLE:*/
 
 .education-experience-section {
