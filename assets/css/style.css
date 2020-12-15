@@ -224,3 +224,94 @@ h1 {
 	font-weight: 900;
 }
 
+/*EDUCATION AND EXPERIENCE STYLE:*/
+
+.education-experience-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.edu-ex-text {
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.edu-ex-block {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-left: 2px solid rgb(114, 206, 159);
+    margin-left: 20px;
+    padding: 30px;
+    margin-top: 10px;
+    max-width: 450px;
+}
+
+
+.edu-ex-block {
+    position: relative;
+}
+
+
+.edu-ex-title {
+    display: inline-flex;
+}
+
+.edu-line-style {
+    display: flex;
+}
+
+.circle {
+  position: absolute;
+  left: -27px;
+  height: 8px;
+  width: 8px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 2px solid rgb(114, 206, 159);
+  display: inline-block;
+  justify-content: space-between;
+}
+
+.edu-line {
+  border-top: 2px solid rgb(114, 206, 159);
+  width: 15px;
+  position: absolute;
+  left: -16px;
+  top:18px;
+}
+
+.date-and-title {
+    display: flex;
+    margin-top: 6px;
+    margin-bottom: 8px;
+}
+
+.date {
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.date h5 {
+    color: rgb(114, 206, 159);
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.title {
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+
+.edu-ex-heading h5 {
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+.background-container {
+    display: flex;
+    z-index: -1;
+    background-color: rgb(246, 241, 241);
+}
+
+.section-container {
+    padding: 80px 59px;
+}
+
