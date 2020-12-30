@@ -205,7 +205,8 @@ h5 {
 .second-layer {
 	position: absolute;
 	top: 40px;
-	width: 1100px;
+	width: 100%;
+	max-width: 1100px;
 	height: 100px;
 	background-color: #fff;
 }
@@ -267,6 +268,7 @@ h1 {
     margin-left: 20px;
     padding: 30px;
     margin-top: 10px;
+    width: 100%;
     max-width: 450px;
 }
 
@@ -346,7 +348,8 @@ h1 {
 
 .box {
 	position: relative;
-	width: 100px;
+	max-width: 100px;
+	width: 100%;
 	height: 100px;
 	display: flex;
 	justify-content: center;
@@ -356,7 +359,8 @@ h1 {
 
 .box .percent {
 	position: relative;
-	width: 70px;
+	max-width: 70px;
+	width: 100%;
 	height: 50px;
 }
 
@@ -426,7 +430,8 @@ h1 {
 }
 
 .work-example {
-	width: 580px;
+	max-width: 580px;
+	width: 100%;
 	height: 390px;
 	border: 1px solid rgb(114, 206, 159);
 }
